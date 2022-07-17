@@ -1,0 +1,6 @@
+Description:
+
+Usage: 
+1) verify you have the gcc compiler installed. Written using version 8.5.0.
+2) run the command "make" in the working directory. This will produce an executable called "mmult"
+3) create the matricies you want to multiply 
