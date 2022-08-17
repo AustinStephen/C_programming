@@ -1,6 +1,8 @@
 Description:
+Takes in two matrices as files, and an integer for the number of threads to distribute the workload over. Multiplies the two matrices and writes their result to a file.
 
 Usage: 
-1) verify you have the gcc compiler installed. Written using version 8.5.0.
-2) run the command "make" in the working directory. This will produce an executable called "mmult"
-3) create the matricies you want to multiply 
+1) Verify you have the gcc compiler installed. Written using version 8.5.0.
+2) Run the command "make" in the working directory. This will produce an executable called "mmult"
+3) Create the matrices you want to multiply using the make_mat executable. For example, “make_mat MATRIX_1 4 5 1” will create a 4 by 5 matrix of all 1s. Note I am not the author of this program which is documented in the source file.
+4) Multiply the matrices by running “mmult MATRIX_1 MATRIX_2 RESULT_NAME 10” where the first two matrices should already exist, the name of the resulting matrix is specified and the number of threads is 10 in this case.
