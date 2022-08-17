@@ -1,0 +1,8 @@
+Description:
+Simple implementations of the tar command line utility.
+
+Usage:
+1) Verify you have the gcc compiler installed. Written using version 8.5.0.
+2) Run the command "make" in the working directory. This will produce an executable called "wytar".
+3) Run the executable in the same way as you can the normal utility. -x extracts the archive, -c creates the archive and -f is the name of the archive. 
+Note: It uses the same octal encoding scheme as GNU tar.
