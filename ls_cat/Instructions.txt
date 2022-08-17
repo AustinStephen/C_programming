@@ -1,0 +1,10 @@
+Description:
+Simple implementations of the ls and cat command line utilities.
+
+Usage:
+1) Verify you have the gcc compiler installed. Written using version 8.5.0.
+2) Run the command "make" in the working directory. This will produce an executable called "wyshell"
+3) Run the executable and it will start your command prompt. You can interact with it by running commands like ls pwd etc. test out running quiet processes, pipes, file redirects or chaining commands with ";"
+
+Note: 
+I did not author the tokenization code in wyscanner. Credit is attributed in the source files.
