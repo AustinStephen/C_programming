@@ -4,4 +4,4 @@ Simple implementations of the ls and cat command line utilities.
 Usage:
 1) Verify you have the gcc compiler installed. Written using version 8.5.0.
 2) Run the command "make" in the working directory. This will produce an executables called "wyls" and "wycat" (short for Wyoming ls and cat :) )
-3) Run the executable in the same way as you can use the normal utilites. ls supports -a and -l options as well.
+3) Run the executable in the same way as you can use the normal utilites. ls supports -h option.
