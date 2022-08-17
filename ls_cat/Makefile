@@ -12,8 +12,8 @@ RM=/bin/rm -f
 
 .PHONY: clean
 
-wyls: wyls.c
+wy: wyls.c wycat.c
 	${CC} ${CFLAGS} wyls.c -lm -o wyls
-
+	${CC} ${CFLAGS} wycat.c -lm -o wycat
 clean:
 	${RM} wyls core.*
